@@ -66,13 +66,13 @@ princp=[]
 from rich.console import Console
 from rich.columns import Columns
 wa = Console()
-###----------[ GET PROXY ]----------###
+#------------------[ USER-AGENT ]-------------------#
 try:
-	prox= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=100000&country=all&ssl=all&anonymity=all').text
+	prox= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=80000&country=all&ssl=all&anonymity=all').text
 	open('.prox.txt','w').write(prox)
 except Exception as e:
-	print(f'gagal ster :(')
-proxsi=open('.prox.txt','r').read().splitlines()
+	print(' [+] Koneksi Internet Anda Tidak Terdeteksi Silahkan Cek Kuota Anda Ya Salam Dari BrayennnXD');exit()
+prox=open('.prox.txt','r').read().splitlines()
 for agenkuw in range(10000):
 	a='Mozilla/5.0 (Linux; Android'
 	b=random.choice(['8.1.0','9','10','11','12'])
@@ -862,16 +862,16 @@ for x in range(10):
 	uak=f'Mozilla/5.0 (Linux; Android {a}; Pixel {b}) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{c}.0.{d}.{e} Mobile Safari/537.36'
 def uaku():
 	try:
-		ua=open('socksku.txt','r').read().splitlines()
+		ua=open('bbnew.txt','r').read().splitlines()
 		for ub in ua:
-			uaa.append(ub)
+			ugen.append(ub)
 	except:
-		a=requests.get('https://github.com/NolepXx/a/SKULL2/main/socks4.txt').text
-		ua=open('.socksku.txt','w')
+		a=requests.get('https://github.com/EC-1709/a/blob/main/bbnew.txt').text
+		ua=open('.bbnew.txt','w')
 		aa=re.findall('line">(.*?)<',str(a))
 		for un in aa:
 			ua.write(un+'\n')
-		ua=open('.socksku.txt','r').read().splitlines()
+		ua=open('.bbnew.txt','r').read().splitlines()
 ###----------[ WARNA PRINT RICH ]---------- ###
 M2 = "[#FF0000]" # MERAH
 H2 = "[#00FF00]" # HIJAU
