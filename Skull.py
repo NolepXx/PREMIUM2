@@ -939,13 +939,9 @@ def back():
 	login()
 #------------------[ LOGO-LAKNAT ]-----------------#
 def banner():
-	cetak(panel(f"""\t{sir}
-  [bold cyan] _  _________  ___  _____   __  _______  __ ™
-[bold cyan]  | |/_/ ___/\ \/ / |/ / _ | /  |/  / __ \/ /   | AOUTHOR : BRAYENNNXD AND NOLEPXX 
-[bold cyan] _>  </ /__   \  /    / __ |/ /|_/ / /_/ / /__  | Version: 2.6
-[bold cyan]/_/|_|\___/   /_/_/|_/_/ |_/_/  /_/\____/____/
-{m}▪︎{k}▪︎{h}▪︎{sir} XCYNAMOL XXX BUFFALLO BILL {x}{m}▪︎{k}▪︎{h}▪︎{x} 
-	 """,width=100,title=f"BrayennnXD And NolepXx",style=f"bold cyan"))
+	cetak(panel(f"""[bold green]
+	
+             """,width=100,padding=(0,5),title=f"BRAYENNNXD AND NOLEPXX",style=f"bold cyan"))
 #--------------------[ BAGIAN-MASUK ]--------------#
 def login():
 	try:
