@@ -1,14 +1,14 @@
-# BrayennnV2.6
+# SKULL2
 
 
-git clone https://github.com/BrayennnXD/BrayennnV2.6
+git clone https://github.com/NolepXx/SKULL2
 
 
 
-cd BrayennnV2.6
+cd SKULL2
 
 
 git pull
 
 
-python BrayennnFB.py
+python Skull.py
