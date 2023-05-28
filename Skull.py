@@ -939,13 +939,13 @@ def back():
 	login()
 #------------------[ LOGO-LAKNAT ]-----------------#
 def banner():
-	cetak(panel(f"""
- ______ ___  _____  ___________  _____  _____ _   __ 
- |  ___/ _ \/  __ \|  ___| ___ \|  _  ||  _  | | / /
- | |_ / /_\ \ /  \/| |__ | |_/ /| | | || | | | |/ /     |  |   Author Script Alvino
- |  _||  _  | |    |  __|| ___ \| | | || | | |    \     |  |   Update By BrayennnXD 
- | |  | | | | \__/\| |___| |_/ /\ \_/ /\ \_/ / |\  \    |  |   Version Script 2.6
- \_|  \_| |_/\____/\____/\____/  \___/  \___/\_| \_/                                                                                                     
+	cetak(panel(f"""\t{asu}
+
+   [bold cyan]_  _________  ___  _____   __  _______  __ ™
+[bold cyan]  | |/_/ ___/\ \/ / |/ / _ | /  |/  / __ \/ /     AOUTHOR : BRAYENNNXD AND NOLEPXX 
+[bold cyan] _>  </ /__   \  /    / __ |/ /|_/ / /_/ / /__    Version: 2.6
+[bold cyan]/_/|_|\___/   /_/_/|_/_/ |_/_/  /_/\____/____/
+               {m}▪︎{k}▪︎{h}▪︎{sir} XCYNAMOL XXX BUFFALLO BILL {x}{m}▪︎{k}▪︎{h}▪︎{x}                                                                                   
              """,width=90,title=f"Banner",style=f"bold white"))
 #--------------------[ BAGIAN-MASUK ]--------------#
 def login():
