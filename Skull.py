@@ -941,9 +941,9 @@ def back():
 def banner():
 	cetak(panel(f"""[sir]	
 [bold cyan]   _  _________  ___  _____   __  _______  __ ™
-[bold cyan]  | |/_/ ___/\ \/ / |/ / _ | /  |/  / __ \/ /   | AOUTHOR : XyzonXD,Alvino,BrayennnXD,NolepXx 
+[bold cyan]  | |/_/ ___/\ \/ / |/ / _ | /  |/  / __ \/ /   | AOUTHOR :Alvino,BrayennnXD,NolepXx 
 [bold cyan] _>  </ /__   \  /    / __ |/ /|_/ / /_/ / /__  | Version : 2.6
-[bold cyan]/_/|_|\___/   /_/_/|_/_/ |_/_/  /_/\____/____/  | Status : PREMIUM CODE
+[bold cyan]/_/|_|\___/   /_/_/|_/_/ |_/_/  /_/\____/____/  | SOURCE CODE : PREMIUM
 
              """,width=100,padding=(0,5),title=f"BRAYENNNXD AND NOLEPXX",style=f"bold cyan"))
 #--------------------[ BAGIAN-MASUK ]--------------#
