@@ -941,7 +941,7 @@ def back():
 def banner():
 	cetak(panel(f"""[sir]	
 [bold cyan]   _  _________  ___  _____   __  _______  __ ™
-[bold cyan]  | |/_/ ___/\ \/ / |/ / _ | /  |/  / __ \/ /   | AOUTHOR : Alvino,BrayennnXD and NolepXx 
+[bold cyan]  | |/_/ ___/\ \/ / |/ / _ | /  |/  / __ \/ /   | AOUTHOR : Alvino,BrayennnXD,NolepXx 
 [bold cyan] _>  </ /__   \  /    / __ |/ /|_/ / /_/ / /__  | Version : 2.6
 [bold cyan]/_/|_|\___/   /_/_/|_/_/ |_/_/  /_/\____/____/
 
