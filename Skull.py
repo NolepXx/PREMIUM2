@@ -938,14 +938,11 @@ def back():
 	login()
 #------------------[ LOGO-LAKNAT ]-----------------#
 def banner():
-	cetak(panel(f"""
- ______ ___  _____  ___________  _____  _____ _   __ 
- |  ___/ _ \/  __ \|  ___| ___ \|  _  ||  _  | | / /
- | |_ / /_\ \ /  \/| |__ | |_/ /| | | || | | | |/ /     |  |   Author Script Alvino
- |  _||  _  | |    |  __|| ___ \| | | || | | |    \     |  |   Update By BrayennnXD 
- | |  | | | | \__/\| |___| |_/ /\ \_/ /\ \_/ / |\  \    |  |   Version Script 2.6
- \_|  \_| |_/\____/\____/\____/  \___/  \___/\_| \_/                                                                                                     
-             """,width=90,title=f"Banner",style=f"bold white"))
+	clear()
+	cetak(panel(f'''\t{asu}
+
+			        {M}▪︎{K}▪︎{H}▪︎{B} SKULL XCYNAMOLL CODE ARMY {B}{G}▪︎{M}▪︎{K}▪︎{X}
+				''')
 #--------------------[ BAGIAN-MASUK ]--------------#
 def login():
 	try:
