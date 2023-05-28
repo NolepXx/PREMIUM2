@@ -1,14 +1,14 @@
 # SKULL2
 
 
-git clone https://github.com/NolepXx/SKULL2
+git clone https://github.com/NolepXx/PREMIUM2
 
 
 
-cd SKULL2
+cd PREMIUM2
 
 
 git pull
 
 
-python Skull.py
+python premium.py
