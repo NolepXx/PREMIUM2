@@ -946,7 +946,7 @@ def banner():
 [bold cyan] _>  </ /__   \  /    / __ |/ /|_/ / /_/ / /__   Version: 2.6
 [bold cyan]/_/|_|\___/   /_/_/|_/_/ |_/_/  /_/\____/____/
          {m}▪︎{k}▪︎{h}▪︎{sir} XCYNAMOL XXX BUFFALLO BILL {x}{m}▪︎{k}▪︎{h}▪︎{x}                                                                                   
-             """,width=90,title=f"Banner",style=f"bold cyan"))
+             """,width=95,title=f"XzonXD,BrayennnXD And NolepXx",style=f"bold cyan"))
 #--------------------[ BAGIAN-MASUK ]--------------#
 def login():
 	try:
