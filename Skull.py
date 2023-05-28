@@ -66,14 +66,15 @@ princp=[]
 from rich.console import Console
 from rich.columns import Columns
 wa = Console()
+###----------[ GET PROXY ]----------###
 try:
-	prox= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=80000&country=all&ssl=all&anonymity=all').text
-	open('.prox.txt','w').write(prox)
+	proxylist= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=100000&country=all&ssl=all&anonymity=all').text
+	open('socksku.txt','w').write(proxylist)
 except Exception as e:
-	print('[\x1b[1;92m•\x1b[1;97m] [\x1b[1;96mNolepXx')
-prox=open('.prox.txt','r').read().splitlines()
-limitd=0
-for agenkuw in range(80000):
+	baz_anim(f'gagal ster :(')
+proxsi=open('socksku.txt','r').read().splitlines()
+
+for agenkuw in range(10000):
 	a='Mozilla/5.0 (Linux; Android'
 	b=random.choice(['8.1.0','9','10','11','12'])
 	c='CPH2109'
@@ -810,7 +811,7 @@ for agenkuw in range(80000):
 	l='UCBrowser/11.4.8.1012 Mobile Safari/537.36'
 	uaku2=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
 	uaa.append(uaku2)
-for t in range(80000):
+for t in range(10000):
     a=random.choice(['3','4','5','6','7','8','9','10','11','12','13'])
     b=random.randrange(111111,210000)
     c=random.randrange(73,100)
@@ -822,7 +823,7 @@ for t in range(80000):
     uaa.append(XILL)
 
 #------------[ UBAH UA DIH SINI OM ]---------------#
-for t in range(80000):
+for t in range(10000):
 	a=random.choice(['1','1.0','1.5','2','2.0','2.5','3','3.0','3.5','4','4.0','4.5','5','5.0','5.5','6','6.0','6.5','7','7.0','7.5','8','8.0','8.5','9','9.0','9.5','10','10.0','10.5','11','11.0','11.5','12','12.0','12.5','13'])
 	b=random.choice(['OPM1','TP1A','RP1A','PPR1','PKQ1','QP1A','SP1A','RKQ1'])
 	c=random.randrange(111111,210000)
@@ -862,7 +863,7 @@ for x in range(10):
 	uak=f'Mozilla/5.0 (Linux; Android {a}; Pixel {b}) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{c}.0.{d}.{e} Mobile Safari/537.36'
 def uaku():
 	try:
-		ua=open('bbnew.txt','r').read().splitlines()
+		ua=open('prox.txt','r').read().splitlines()
 		for ub in ua:
 			ugen.append(ub)
 	except:
