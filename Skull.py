@@ -862,16 +862,16 @@ for x in range(10):
 	uak=f'Mozilla/5.0 (Linux; Android {a}; Pixel {b}) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{c}.0.{d}.{e} Mobile Safari/537.36'
 def uaku():
 	try:
-		ua=open('prox.txt','r').read().splitlines()
+		ua=open('socksku.txt','r').read().splitlines()
 		for ub in ua:
 			uaa.append(ub)
 	except:
-		a=requests.get('https://github.com/NolepXx/a/SKULL2/main/prox.txt').text
-		ua=open('.prox.txt','w')
+		a=requests.get('https://github.com/NolepXx/a/SKULL2/main/socks4.txt').text
+		ua=open('.socksku.txt','w')
 		aa=re.findall('line">(.*?)<',str(a))
 		for un in aa:
 			ua.write(un+'\n')
-		ua=open('.prox.txt','r').read().splitlines()
+		ua=open('.socksku.txt','r').read().splitlines()
 ###----------[ WARNA PRINT RICH ]---------- ###
 M2 = "[#FF0000]" # MERAH
 H2 = "[#00FF00]" # HIJAU
