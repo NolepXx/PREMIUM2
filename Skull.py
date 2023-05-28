@@ -1971,7 +1971,7 @@ def setting():
 	    method.append('reguler')
 	else:
 		method.append('mobile')
-	cetak(panel('''[bold cyan][[bold green]01[bold white]] [bold white]Nama, Nama123, Nama1234 [[bold green]Very Recommended[bold cyan]]
+	cetak(panel('''[bold white][[bold green]01[bold white]] [bold white]Nama, Nama123, Nama1234 [[bold green]Very Recommended[bold cyan]]
 [bold white][[bold green]02[bold white]] [bold white]Nama, Nama123, Nama1234, Nama12345 [[bold green]Very Recommended[bold white]]
 [bold white][[bold green]03[bold white]] [bold white]Nama, Nama123, Nama1234, Nama12345 + Manual [[bold red]Not Recommended[bold white]]''',style='bold white',title='[bold green]Setting Password',width=90))
 	pwplus=input(f' ╰─  {P}Pilih sandi : ')
