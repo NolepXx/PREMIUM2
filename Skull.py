@@ -1003,7 +1003,7 @@ def banner():
                           .=%@@@@@#*=-.             .:=*%@@@@%+:                          
 
 			        {M}▪︎{K}▪︎{H}▪︎{B} SKULL XCYNAMOLL CODE ARMY {B}{G}▪︎{M}▪︎{K}▪︎{X}
-				''')
+				'''))
 #--------------------[ BAGIAN-MASUK ]--------------#
 def login():
 	try:
