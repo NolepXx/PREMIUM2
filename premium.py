@@ -68,11 +68,11 @@ from rich.columns import Columns
 wa = Console()
 #------------------[ USER-AGENT ]-------------------#
 try:
-	prox= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=10000&country=all&ssl=all&anonymity=all').text
-	open('.socksku.txt','w').write(prox)
+	proxylist= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=10000&country=all&ssl=all&anonymity=all').text
+	open('.pxy.txt','w').write(proxylist)
 except Exception as e:
 	print(' [+] Koneksi Internet Anda Tidak Terdeteksi Silahkan Cek Kuota Anda Ya Salam Dari BrayennnXD');exit()
-proxsi=open('.socksku.txt','r').read().splitlines()
+proxsi=open('.pxy.txt','r').read().splitlines()
 ####-----------User agen--------###
 for agenkuw in range(10000):
 	a='Mozilla/5.0 (Linux; Android'
