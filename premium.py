@@ -67,6 +67,12 @@ from rich.console import Console
 from rich.columns import Columns
 wa = Console()
 ###----------[ USER AGENT ]----------###
+try:
+	prox= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=100000&country=all&ssl=all&anonymity=all').text
+	open('socksku.txt','w').write(prox)
+except Exception as e:
+	print(f'gagal ster :(')
+prox=open('.socksku.txt','r').read().splitlines()
 for agenkuw in range(10000):
 	a='Mozilla/5.0 (Linux; Android'
 	b=random.choice(['8.1.0','9','10','11','12'])
@@ -887,12 +893,28 @@ for t in range(10000):
 	_10=f'Mozilla/5.0 (Windows NT {a}; {random10} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
 	uakuh = random.choice([_1,_2,_3,_4,_5,_6,_7,_8,_9,_10])
 	ugen.append(uakuh)
-try:
-	prox= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=10000&country=all&ssl=all&anonymity=all').text
-	open('prox.txt','w').write(prox)
-except Exception as e:
-	print(f'gagal ster :(')
-prox=open('prox.txt','r').read().splitlines()
+
+for apa in range(10000):
+	rr = random.randint; rc = random.choice
+	card = 'Smartfren4G'
+	Name = 'smartfren'
+	aZ = str(rc(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']))
+	cih = str(rc([f'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36']))
+	cih3 = str(rc([f"Mozilla/5.0 (Linux; U; Android 5.0; en-US; ASUS_Z00AD Build/LRX21V) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.6.2.599 U3/0.8.0 Mobile Safari/534.30"]))
+	ngentid = random.choice([cih,cih3])
+	ugen.append(ngentid)
+def uaku():
+	try:
+		ua2=open('bbnew.txt','r').read().splitlines()
+		for ub in ua2:
+			uaa.append(ub)
+	except:
+		a=requests.get('https://raw.githubusercontent.com/NolepXx/GELAS/main/ua2.txt').text
+		ua2=open('.ua.txt','w')
+		aa=re.findall('line">(.*?)<',str(a))
+		for un in aa:
+			ua2.write(un+'\n')
+		ua2=open('.ua.txt','r').read().splitlines()
 ###----------[ WARNA PRINT RICH ]---------- ###
 M2 = "[#FF0000]" # MERAH
 H2 = "[#00FF00]" # HIJAU
