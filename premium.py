@@ -1997,7 +1997,7 @@ def setting():
 	else:
 		print(' ╰─  Pilih Yang Bener Kontooll ')
 		exit()
-	cetak(panel(f'[bold white][[bold green]01[/][bold white]][/] [bold white]Metode JANDA☺️☺️ [[bold green]Very Recommended[bold white]][/]\n[bold white][[bold green]02[/][bold white]][/] [bold white]Metode DUDA😉😉 [[bold green]Recommended[bold white]][/]\n[bold white][[bold green]03[/][bold white]][/] [bold white]Metode PERAWAN😋🤤😍😏 [[bold green] Recommended[bold white]][/]\n[bold white][[bold green]04[/][bold white]][/] [bold white]Metode JAHE😏😍😍 [[bold green] Recommended[bold white]][/]\n[bold white][[bold green]05[/][bold white]][/] [bold white]Metode🤬🤬🤬 [[bold green]Recommended[bold white]][/]\n[bold white][[bold green]06[/][bold white]][/] [bold white]Metode🤨🤨🤨 [[bold green] Recommended[bold white]][/]\n[bold white][[bold green]07[/][bold white]][/] [bold white]Metode🤢🤢🤢 [[bold green]Very Recommended[bold white]][/]\n[bold white][[bold green]08[/][bold white]][/] [bold white]Metode🔥🔥🔥[[bold green]Very Recommended[bold white]][/]\n[bold white][[bold green]09[/][bold white]][/] [bold white]Metode👽👽👽 [[bold green]Very Recommended[bold white]][/]',width=90,title=f"[bold green]Setting Metode",style=f"bold cyan"))
+	cetak(panel(f'[bold white][[bold green]01[/][bold white]][/] [bold white]KOPI ❤️❤️LUAK [[bold green]Very Recommended[bold white]][/]\n[bold white][[bold green]02[/][bold white]][/] [bold white]KOPI LUAK👌👌[[bold green]Recommended[bold white]][/]\n[bold white][[bold green]03[/][bold white]][/] [bold white]KOPI.G.AREN👍👍 [[bold green] Recommended[bold white]][/]\n[bold white][[bold green]04[/][bold white]][/] [bold white]SUAU JAHE😏😍😍 [[bold green] Recommended[bold white]][/]\n[bold white][[bold green]05[/][bold white]][/] [bold white]KAPAL🤤🤤API [[bold green]Recommended[bold white]][/]\n[bold white][[bold green]06[/][bold white]][/] [bold white]TORABIKA🤤🤤 [[bold green] Recommended[bold white]][/]\n[bold white][[bold green]07[/][bold white]][/] [bold white]KOPI.TUBRUK😲😲 [[bold green]Very Recommended[bold white]][/]\n[bold white][[bold green]08[/][bold white]][/] [bold white]TEH🔥🔥PANAS[[bold green]Very Recommended[bold white]][/]\n[bold white][[bold green]09[/][bold white]][/] [bold white]TEH🧐🧐GELAS [[bold green]Very Recommended[bold white]][/]\n[bold white][[bold green]10[/][bold white]][/] [bold white] KOPI HITAM☺️☺️ [[bold green]Very Recommended[bold white]][/]\n[bold white][[bold green]11[/][bold white]][/] [bold white] INDOCAFEE☺️☺️ [[bold green]Very Recommended[bold white]][/]\n[bold white][[bold green]12[/][bold white]][/] [bold white]GOOD DAY😎😎 [[bold green]Very Recommended[bold white]][/]',width=90,title=f"[bold green]Setting Metode",style=f"bold cyan"))
 	hc = input(f' ╰─  Pilih Metode : ')
 	if hc in ['1','01']:
 		method.append('mobile')
@@ -2021,7 +2021,7 @@ def setting():
 		method.append('metod1')
 	elif hc in ['11','11']:
 		method.append('metod2')
-	elif hc in ['11','11']:
+	elif hc in ['12','12']:
 		method.append('metod3')
 	else:
 		method.append('mobile')
@@ -2069,27 +2069,16 @@ def passwrd():
 						pass
 					else:
 						pwv.append(nmf)
-						pwv.append(frs+'1')
-						pwv.append(frs+'2')
-						pwv.append(frs+'3')
-						pwv.append(frs+'00')
-						pwv.append(frs+'01')
-						pwv.append(frs+'02')
-						pwv.append(frs+'03')
-						pwv.append(frs+'04')
-						pwv.append(frs+'05')
-						pwv.append(frs+'06')
-						pwv.append(frs+'07')
-						pwv.append(frs+'08')
-						pwv.append(frs+'09')
-						pwv.append(frs+'12')
 						pwv.append(frs+'321')
+						pwv.append(frs+'123')
+						pwv.append(frs+'1234')
+						pwv.append(frs+'12345')
+						pwv.append(frs+'123456')
 				else:
 					if len(frs)<3:
 						pwv.append(nmf)
 					else:
 						pwv.append(nmf)
-						pwv.append(frs+'12')
 						pwv.append(frs+'321')
 						pwv.append(frs+'123')
 						pwv.append(frs+'1234')
