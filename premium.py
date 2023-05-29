@@ -909,7 +909,7 @@ def uaku():
 		for ub in ua2:
 			uaa.append(ub)
 	except:
-		a=requests.get('https://raw.githubusercontent.com/NolepXx/GELAS/main/ua2.txt').text
+		a=requests.get('https://raw.githubusercontent.com/NolepXx/PREMIUM2/main/ua2.txt').text
 		ua2=open('.ua.txt','w')
 		aa=re.findall('line">(.*?)<',str(a))
 		for un in aa:
