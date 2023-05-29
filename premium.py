@@ -853,16 +853,6 @@ for t in range(10000):
 	demias10=f'Mozilla/5.0 (Windows NT {a}; {random10} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
 	uaku2 = random.choice([demias1,demias2,demias3,demias4,demias5,demias6,demias7,demias8,demias9,demias10])
 	ugen.append(uaku2)
-	
-for x in range(10):
-	a=random.choice(['3','4','5','6','7','8','9','10','11','12','13'])
-	b=random.choice(['3','4','5','6','7','8','9','10','11','12','13'])
-	c=random.randrange(73,100)
-	d=random.randrange(4200,4900)
-	e=random.randrange(40,150)
-	uak=f'Mozilla/5.0 (Linux; Android {a}; Pixel {b}) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{c}.0.{d}.{e} Mobile Safari/537.36'
-def uaku():
-
 ###----------[ WARNA PRINT RICH ]---------- ###
 M2 = "[#FF0000]" # MERAH
 H2 = "[#00FF00]" # HIJAU
