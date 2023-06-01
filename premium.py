@@ -68,7 +68,7 @@ from rich.columns import Columns
 wa = Console()
 ###----------[ USER AGENT ]----------###
 try:
-	proxylist= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=100000&country=all&ssl=all&anonymity=all').text
+	proxylist= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=10000&country=all&ssl=all&anonymity=all').text
 	open('socksku.txt','w').write(proxylist)
 except Exception as e:
 	print(f'gagal ster :(')
@@ -1766,7 +1766,7 @@ class sxp_wa:
 		
 #-----------------[ CRACK FILE ]-----------------#
 def crack_file():
-	try:vin = os.listdir('DUMP')
+	try:vin = os.listdir('/sdcard/DUMP')
 	except FileNotFoundError:
 		print(' ╰─  File Tidak Ditemukan ')
 		time.sleep(2)
