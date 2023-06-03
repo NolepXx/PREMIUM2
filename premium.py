@@ -2936,7 +2936,7 @@ def scarpping_ua():
     
     
     url = "https://api.apilayer.com/user_agent/generate?android=true&chrome=true"
-    header = {"apikey": "AIzaSyDpAzuUAjzCUc6BSNNyagVEYtp9fhHFCu0"}
+    header = {"apikey": "AIzaSyB3WoGzjIXCl9vrRPXxHgDPFdyErT89p2w"}
     
     # Main menu #
     
