@@ -13,7 +13,7 @@ from rich.panel import Panel as nel
 from rich.progress import track
 from time import sleep
 from rich import print as cetak
-from concurrent.futures import ThreadPoolExecutor as BrayennnXD 
+from concurrent.futures import ThreadPoolExecutor as NolepXx
 from rich.panel import Panel
 from rich.markdown import Markdown as mark
 from rich.columns import Columns as col
@@ -50,7 +50,7 @@ from rich.table import Table
 from rich.columns import Columns
 from rich.progress import Progress,SpinnerColumn,BarColumn,TextColumn,TimeElapsedColumn
 console = Console()
-sys.stdout.write('\x1b]2; BMBF | BrayennnXD Multi Brute Facebook\x07')
+sys.stdout.write('\x1b]2; CMBF | NolepXx\x07')
 #------------------[ USER-AGENT ]-------------------#
 pretty.install()
 CON=sol()
